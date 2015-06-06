@@ -1,0 +1,20 @@
+﻿OWCAP IT department,
+
+A user has submitted a work order to your department. 
+
+Employee ID:			##EmployeeID##
+
+Name:					##Name##
+
+Date Requested:			##Date##
+
+Time Requested:			##Time##
+
+Urgency:				##Urgency##
+
+Contact Number:			##ContactNumber##
+
+Location:				##Location##
+
+Description:			
+	##Description##

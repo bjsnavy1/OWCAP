@@ -1,0 +1,283 @@
+#wrapper #header {
+	width: 960px;
+	position: relative;
+	height: 150px;
+	background-image: url(../images/gradient.png);
+	background-repeat: repeat-x;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+}
+#wrapper {
+	width: 960px;
+	padding: 0px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+
+#wrapper #header #nav {
+	position: absolute;
+}
+    #wrapper #header #navMenu {
+        font-family: Georgia, "Times New Roman", Times, serif;
+	    position: absolute;
+	    left: 723px;
+	    top: 6px;
+	    font-size: 12px;
+        color: white;
+	    height: 17px;
+    }
+#wrapper #header #donate {
+	height: 50px;
+	width: 175px;
+	position: absolute;
+	left: 7px;
+	top: 115px;
+	z-index: 10;
+}
+#wrapper #header #logo {
+	position: absolute;
+	height: 100px;
+	width: 250px;
+}
+#wrapper #header #subscribe {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	position: absolute;
+	left: 723px;
+	top: 6px;
+	font-size: 12px;
+	height: 17px;
+}
+#wrapper #header #facebook {
+	position: absolute;
+	height: 25px;
+	width: 25px;
+	left: 816px;
+	top: 15px;
+}
+#wrapper #header #twitter {
+	position: absolute;
+	height: 25px;
+	width: 25px;
+	left: 860px;
+	top: 16px;
+}
+#wrapper #header #youtube {
+	position: absolute;
+	height: 25px;
+	width: 25px;
+	left: 902px;
+	top: 18px;
+}
+#wrapper #header #links {
+	position: absolute;
+	left: 512px;
+	top: 120px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	color: #000;
+}
+#wrapper #header #links h3 a {
+	color: #000;
+}
+#wrapper #header #links h3 a:hover {
+	color: #FFF;
+}
+#wrapper #header #links h3 a:focus {
+	color: #903;
+}
+#wrapper #accordion {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	padding: 0px;
+	float: left;
+	margin-bottom: 25px;
+}
+#wrapper #vol-cap {
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+	width: 960px;
+}
+#wrapper #footer {
+	background-color: #000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+    width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	text-align: center;
+	height: 100px;
+	float: left;
+}
+#wrapper #spacer {
+	height: 25px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	left: 1px;
+	top: 336px;
+}
+#wrapper #Lpanel {
+	float: left;
+	width: 300px;
+	height: auto;
+	left: 1px;
+	padding: 0px;
+}
+#wrapper #main_content {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+}
+#wrapper #main_content #Lpanel ul {
+	text-decoration: none;
+}
+#wrapper #main_content #Lpanel ul li {
+	text-decoration: none;
+	color: #FFF;
+	border: 5px solid #000;
+	text-align: center;
+	display: block;
+	vertical-align: middle;
+}
+#wrapper #main_content #Lpanel ul li a {
+	color: #000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	text-decoration: none;
+}
+#wrapper #main_content #Rpanel {
+	left: 334px;
+	top: 1px;
+	float: right;
+	width: 500px;
+}
+#wrapper #main_content #Lpanel h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #000;
+}
+#wrapper #Lcontent {
+	height: auto;
+	width: 235px;
+	color: #FFF;
+	background-color: #7C001A;
+	padding: 0px;
+	margin-top: 15px;
+	float: left;
+	margin-bottom: 15px;
+	border: 5px solid #000;
+}
+#wrapper #Rcontent {
+	padding: 0px;
+	height: auto;
+	width: 700px;
+	float: right;
+	margin-top: 50px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #000;
+}
+#wrapper #Lcontent ul {
+	color: #FFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	text-decoration: none;
+}
+#wrapper #Lcontent ul li a {
+	text-decoration: none;
+	list-style-type: none;
+	color: #FFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+}
+#wrapper #Lcontent ul li {
+	text-decoration: none;
+	list-style-type: none;
+}
+#wrapper #Lcontent h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+}
+#wrapper #Lcontent ul li a:hover {
+	color: #F90;
+}
+#wrapper #Lcontent ul li a:focus {
+	color: #FF0;
+}
+#wrapper #Rcontent h2 {
+	text-align: center;
+}
+#wrapper #Rcontent p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+}
+#wrapper #lower {
+	float: left;
+	width: 960px;
+	padding: 0px;
+	margin-right: auto;
+	margin-bottom: 25px;
+	margin-left: auto;
+}
+#wrapper #lower h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+}
+#wrapper #lower h4 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+}
+.input {
+    border: 5px #999 solid;
+    background: #efefef;
+    padding: 10px;
+    font-size: 36px;
+    width: 560px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+.input:hover{
+    background: #fff;
+}
+.input:focus {
+    background: #fff;
+    border-color: #555;
+ }
+#wrapper #header #Intlinks {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	float: right;
+	padding-right: 20px;
+	margin-top: 5px;
+}
+#wrapper #header #subscribe h3 a {
+	color: #000;
+}
+#wrapper #header #subscribe h3 a:hover {
+	color: #FFF;
+}
+#wrapper #header #subscribe h3 a:focus {
+	color: #903;
+}

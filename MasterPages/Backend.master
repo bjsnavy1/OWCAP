@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Backend.master.cs" Inherits="MasterPages_Backend" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../includes/Site.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../includes/marquee.css" />
+    <link href="../css/ui-darkness/jquery-ui-1.10.4.custom.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+         <div id="wrapper">
+            <div id="header">
+                <div id="logo"><a href="index.html"><img src="../images/logo.png" alt="Home"/></a></div>
+                <div id="links"><h3><a href="#">Internal-Employment</a>  |  <a href="#">Web Outlook</a> | <a href="#">Sign-Out</a></h3></div>   
+  
+  	        <div id="nav">
+	        </div>
+          </div>
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+            <div id="footer"><br/><br/><h3>Ogden Weber Community Action Partnership  | 801-399-9281  | 3159 Grant Ave.  | Site Developed by Tricked Out Development</h3></div>
+        </div>
+         <script type="text/javascript">
+             var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", { imgDown: "SpryAssets/SpryMenuBarDownHover.gif", imgRight: "SpryAssets/SpryMenuBarRightHover.gif" });
+        </script>
+    </form>  
+      
+</body>
+</html>

@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Frontend.master.cs" Inherits="MasterPages_Frontend" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script src="../SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+    <link href="../SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+    <link href="../includes/Site.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../includes/marquee.css" />
+    <link href="../css/ui-darkness/jquery-ui-1.10.4.custom.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true">
+            <Scripts>
+                <asp:ScriptReference Name="jquery" />
+            </Scripts>
+        </asp:ScriptManager>
+        <div id="wrapper">
+            <div id="header">
+  	            <div id="donate"><a href="#"><img src="../images/donate.png" alt="Donate"/></a></div>
+                <div id="logo"><a href="index.html"><img src="../images/logo.png" alt="Home"/></a></div>
+                <div id="subscribe"><h3>Subscribe:</h3></div> 
+                <div id="facebook"><a href="index.html"><img src="../images/fb.png" alt="Home"/></a></div>
+                <div id="twitter"><a href="index.html"><img src="../images/twitter.png" alt="Home"/></a></div>
+                <div id="youtube"><a href="index.html"><img src="../images/youtube.png" alt="Home"/></a></div>
+                <div id="links"><h3><a href="#">Employment</a>  |  <a href="#">Web Outlook</a> | <a href="#">Sign-in</a></h3></div>   
+  
+  	        <div id="nav">
+   	          <ul id="MenuBar1" class="MenuBarHorizontal">
+          	        <li><a class="MenuBarItemSubmenu" href="#">Home</a>
+         	        </li>
+         	        <li><a href="#">About</a>
+          		        <ul>
+              	        <li><a href="#">CAP History</a></li>
+              	        <li><a href="#">Coalitions</a></li>
+              	        <li><a href="#">Board of Trustees</a></li>
+      			        </ul></li>
+          	        <li><a class="MenuBarItemSubmenu" href="#">Head Start</a>
+            	        <ul>
+  					        <li><a href="#">Eduacation</a></li>          
+              		        <li><a class="MenuBarItemSubmenu" href="#">Health</a>
+                		        <ul>
+                  			        <li><a href="#">Health Services</a></li>
+                  			        <li><a href="#">Mental Health</a></li>
+                		        </ul>
+              		        </li>
+              		        <li><a href="#">Nutrition</a></li>
+              		        <li><a href="#">For Parents</a></li>
+                	        <li><a href="#">Support Us</a></li>
+            	        </ul>
+          	        </li>
+          	        <li><a href="#">Programs</a>
+          		        <ul>
+              	        <li><a href="#">Emergency Food</a></li>
+              	        <li><a href="#">Education & <br/> Employment</a></li>
+              	        <li><a href="#">Tax Assistance</a></li>
+              	        <li><a href="#">Adult Education</a></li>
+              	        <li><a href="#">ESL</a></li>
+              	        <li><a href="#">History</a></li>
+              	        <li><a href="#">Support Us</a></li>
+      			        </ul></li>
+          	        <li><a href="#">Volunteer</a>
+          		        <ul>
+              	        <li><a href="#">Community Service</a></li>
+              	        <li><a href="#">Head Start</a></li>
+              	        <li><a href="#">Donations</a></li>
+      			        </ul></li>
+          	        <li><a href="#">MWC</a>
+          		        <ul>
+              		        <li><a href="http://www.marshallwhitecenter.com/" target="_new">Marshall White </br> Center</a></li>
+            	        </ul></li>
+    	        </ul>
+	        </div>
+          </div>
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+            <div id="footer"><br/><br/><h3>Ogden Weber Community Action Partnership  | 801-399-9281  | 3159 Grant Ave.  | Site Developed by Tricked Out Development</h3></div>
+        </div>
+         <script type="text/javascript">
+             var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", { imgDown: "SpryAssets/SpryMenuBarDownHover.gif", imgRight: "SpryAssets/SpryMenuBarRightHover.gif" });
+        </script>
+    </form>  
+      
+</body>
+</html>
